@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/Custom Image Gen
+/_Custom Image Gen
 /.pnp
 .pnp.js
 
