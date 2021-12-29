@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/BossBunniesNFT/static/css/main.ba6eca93.chunk.css",
-    "main.js": "/BossBunniesNFT/static/js/main.c42b1f33.chunk.js",
-    "main.js.map": "/BossBunniesNFT/static/js/main.c42b1f33.chunk.js.map",
-    "runtime-main.js": "/BossBunniesNFT/static/js/runtime-main.e2b31479.js",
-    "runtime-main.js.map": "/BossBunniesNFT/static/js/runtime-main.e2b31479.js.map",
-    "static/js/2.afbc5ca9.chunk.js": "/BossBunniesNFT/static/js/2.afbc5ca9.chunk.js",
-    "static/js/2.afbc5ca9.chunk.js.map": "/BossBunniesNFT/static/js/2.afbc5ca9.chunk.js.map",
-    "static/js/3.0a2ecccf.chunk.js": "/BossBunniesNFT/static/js/3.0a2ecccf.chunk.js",
-    "static/js/3.0a2ecccf.chunk.js.map": "/BossBunniesNFT/static/js/3.0a2ecccf.chunk.js.map",
-    "index.html": "/BossBunniesNFT/index.html",
-    "static/css/main.ba6eca93.chunk.css.map": "/BossBunniesNFT/static/css/main.ba6eca93.chunk.css.map",
-    "static/js/2.afbc5ca9.chunk.js.LICENSE.txt": "/BossBunniesNFT/static/js/2.afbc5ca9.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/BossBunniesNFT/static/media/Poppins-Bold.404e299b.ttf",
-    "static/media/bunnygif.d660be37.gif": "/BossBunniesNFT/static/media/bunnygif.d660be37.gif",
-    "static/media/test.8648ef8a.png": "/BossBunniesNFT/static/media/test.8648ef8a.png"
+    "main.css": "/static/css/main.fd9de8d1.chunk.css",
+    "main.js": "/static/js/main.c42b1f33.chunk.js",
+    "main.js.map": "/static/js/main.c42b1f33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f1a7a250.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f1a7a250.js.map",
+    "static/js/2.b2753c59.chunk.js": "/static/js/2.b2753c59.chunk.js",
+    "static/js/2.b2753c59.chunk.js.map": "/static/js/2.b2753c59.chunk.js.map",
+    "static/js/3.0a2ecccf.chunk.js": "/static/js/3.0a2ecccf.chunk.js",
+    "static/js/3.0a2ecccf.chunk.js.map": "/static/js/3.0a2ecccf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fd9de8d1.chunk.css.map": "/static/css/main.fd9de8d1.chunk.css.map",
+    "static/js/2.b2753c59.chunk.js.LICENSE.txt": "/static/js/2.b2753c59.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/static/media/Poppins-Bold.404e299b.ttf",
+    "static/media/bunnygif.d660be37.gif": "/static/media/bunnygif.d660be37.gif",
+    "static/media/test.8648ef8a.png": "/static/media/test.8648ef8a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2b31479.js",
-    "static/js/2.afbc5ca9.chunk.js",
-    "static/css/main.ba6eca93.chunk.css",
+    "static/js/runtime-main.f1a7a250.js",
+    "static/js/2.b2753c59.chunk.js",
+    "static/css/main.fd9de8d1.chunk.css",
     "static/js/main.c42b1f33.chunk.js"
   ]
 }
