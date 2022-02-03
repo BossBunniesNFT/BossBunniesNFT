@@ -129,7 +129,7 @@ function App() {
               fontWeight: "bold", 
               borderStyle: "solid", 
               borderColor: "black",}}>
-                0.01313 ETH + Gas
+                FREE + GAS
               </s.TextTitle>
             <StyledImg alt={"Hidden"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "#40220A", borderWidth: 5,
                     borderRadius: 20, width: 200, height: 200 }}/>
