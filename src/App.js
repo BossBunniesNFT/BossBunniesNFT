@@ -16,7 +16,7 @@ export const StyledButton = styled.button`
   padding-left: 15px;
   padding-right: 15px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 25px;
   color: #40220A;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -134,7 +134,7 @@ function App() {
             <StyledImg alt={"Hidden"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "#40220A", borderWidth: 5,
                     borderRadius: 20, width: 200, height: 200 }}/>
             <s.TextTitle
-              style={{ textAlign: "center", fontSize: 30, fontWeight: "bold", borderStyle: "solid", borderColor: "black", 
+              style={{ textAlign: "center", fontSize: 25, fontWeight: "bold", borderStyle: "solid", borderColor: "black", 
               borderWidth: 0,
               paddingLeft: 100,
               paddingRight: 100,
@@ -194,7 +194,7 @@ function App() {
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    <s.TextDescription style={{ textAlign: "center", fontSize: 30, marginBottom: 0, color: "#40220A" }}>
+                    <s.TextDescription style={{ textAlign: "center", fontSize: 25, marginBottom: 0, color: "#40220A" }}>
                       CONNECT TO MINT
                     </s.TextDescription>
                     {/* <s.SpacerSmall /> */}
