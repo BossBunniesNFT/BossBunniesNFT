@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd9de8d1.chunk.css",
-    "main.js": "/static/js/main.0eb7a2c4.chunk.js",
-    "main.js.map": "/static/js/main.0eb7a2c4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f1a7a250.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f1a7a250.js.map",
-    "static/js/2.b2753c59.chunk.js": "/static/js/2.b2753c59.chunk.js",
-    "static/js/2.b2753c59.chunk.js.map": "/static/js/2.b2753c59.chunk.js.map",
-    "static/js/3.0a2ecccf.chunk.js": "/static/js/3.0a2ecccf.chunk.js",
-    "static/js/3.0a2ecccf.chunk.js.map": "/static/js/3.0a2ecccf.chunk.js.map",
+    "main.css": "/static/css/main.352d4aa5.chunk.css",
+    "main.js": "/static/js/main.eb8db34c.chunk.js",
+    "main.js.map": "/static/js/main.eb8db34c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6fe57b99.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6fe57b99.js.map",
+    "static/js/2.a9be4664.chunk.js": "/static/js/2.a9be4664.chunk.js",
+    "static/js/2.a9be4664.chunk.js.map": "/static/js/2.a9be4664.chunk.js.map",
+    "static/js/3.c091b8f3.chunk.js": "/static/js/3.c091b8f3.chunk.js",
+    "static/js/3.c091b8f3.chunk.js.map": "/static/js/3.c091b8f3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fd9de8d1.chunk.css.map": "/static/css/main.fd9de8d1.chunk.css.map",
-    "static/js/2.b2753c59.chunk.js.LICENSE.txt": "/static/js/2.b2753c59.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/static/media/Poppins-Bold.404e299b.ttf",
-    "static/media/bunnygif.d660be37.gif": "/static/media/bunnygif.d660be37.gif",
-    "static/media/test.8648ef8a.png": "/static/media/test.8648ef8a.png"
+    "static/css/main.352d4aa5.chunk.css.map": "/static/css/main.352d4aa5.chunk.css.map",
+    "static/js/2.a9be4664.chunk.js.LICENSE.txt": "/static/js/2.a9be4664.chunk.js.LICENSE.txt",
+    "static/media/hidden.d660be37.gif": "/static/media/hidden.d660be37.gif",
+    "static/media/logo.8648ef8a.png": "/static/media/logo.8648ef8a.png",
+    "static/media/reset.css": "/static/media/poppins.cdb29a5d.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1a7a250.js",
-    "static/js/2.b2753c59.chunk.js",
-    "static/css/main.fd9de8d1.chunk.css",
-    "static/js/main.0eb7a2c4.chunk.js"
+    "static/js/runtime-main.6fe57b99.js",
+    "static/js/2.a9be4664.chunk.js",
+    "static/css/main.352d4aa5.chunk.css",
+    "static/js/main.eb8db34c.chunk.js"
   ]
 }
