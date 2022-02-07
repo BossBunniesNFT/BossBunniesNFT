@@ -76,9 +76,9 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0x8815e06FC5b57Bd4d5590977a697582f19d2330e", // the address of your contract
+        to: "0x0d0bf229dfDDF70ED3bA9d40812aA65f13C96229", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.035 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.0 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -105,7 +105,7 @@ function App() {
   }, [blockchain.account]);
 
   return (
-    <s.Screen style={{ backgroundColor: "var(--black)", fontSize: 40 }}>
+    <s.Screen style={{ backgroundColor: "var(--black)", fontSize: 40, color: "red" }}>
       <s.Container flex={1} ai={"center"} style={{backgroundColor: "#F5EED2"}}>
         <div style={{backgroundColor: "#9D2058", width: "100%", marginLeft: 0, marginRight: 0, paddingLeft: 0, paddingRight: 0}}>
         <s.TextTitle
@@ -156,12 +156,13 @@ function App() {
               padding: 24,
               paddingTop: 0,
               borderStyle: "solid", 
-              borderColor: "black", 
+              borderColor: "#40220A", 
               borderWidth: 0,
               borderRadius: 30,
-              fontSize: 40 }}
+              color: "#40220A",
+              fontSize: 25 }}
           >
-            {Number(data.totalSupply) == 5555 ? (
+            {Number(data.totalSupply) == 10001 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   The sale has ended.
@@ -187,7 +188,7 @@ function App() {
                   Excluding gas fees.
                 </s.TextDescription>
                 <s.SpacerSmall /> */}
-                <s.TextDescription style={{ textAlign: "center", fontSize: 40 }}>
+                <s.TextDescription style={{ textAlign: "center", fontSize: 25, maxWidth: 500, margin: "auto" }}>
                   {feedback}
                 </s.TextDescription>
                 {/* <s.SpacerMedium /> */}
@@ -201,12 +202,12 @@ function App() {
                     <StyledButton
                       style={{fontFamily: "coder"}}
                       onClick={(e) => {
-                        // e.preventDefault();
-                        // dispatch(connect());
-                        // getData();
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
                       }}
                     >
-                      COMING SOON
+                      CONNECT
                     </StyledButton>
                     <s.SpacerLarge />
                     {blockchain.errorMsg !== "" ? (
@@ -219,29 +220,30 @@ function App() {
                     ) : null}
                   </s.Container>
                 ) : (
-                  <s.Container ai={"center"} jc={"center"} fd={"row"} style={{marginTop: 0, paddingTop: 0}}>
+                  <s.Container ai={"center"} jc={"center"} fd={"column"} style={{marginTop: 0, paddingTop: 0}}>
                     <form>
-                    I want <input 
+                    I WANT<input 
                     id="inputBox"
                     placeholder="#" 
                     type="number" 
                     min="1" 
-                    max="100"
+                    max="3"
                     style={{
-                      fontSize: 60,
+                      fontSize: 25,
                       textAlign: "center",
-                      backgroundColor: "#FFA537",
+                      backgroundColor: "#FA902C",
                       borderWidth: 4,
-                      borderColor: "black",
+                      borderColor: "#40220A",
                       borderStyle: "solid",
                       borderRadius: 40,
                       paddingRight: 10,
+                      color: "#40220A",
                       // marginBottom: 20,
                       // paddingLeft: 0,
                       // marginLeft: 0,
                       width: 80,
                       fontFamily: "coder",}}
-                    /> Ghosts
+                    /> BOSS BUNNIES
                     </form>
                     <s.SpacerSmall/>
                     <StyledButton
@@ -267,7 +269,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40}}>
                       <a 
-                      href="https://google.com/"
+                      href="https://etherscan.io/address/0x0d0bf229dfDDF70ED3bA9d40812aA65f13C96229"
                       style={{
                         textDecoration: "none",
                         color: "#40220A",
