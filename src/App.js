@@ -75,7 +75,7 @@ function App() {
       // You can switch it back to .mint(blockchain.account, _amount).
       // ********
       .send({
-        gasLimit: 145000 * _amount,
+        gasLimit: 230000 * _amount,
         to: "0x0d0bf229dfDDF70ED3bA9d40812aA65f13C96229", // the address of your contract
         from: blockchain.account,
         value: blockchain.web3.utils.toWei((0.0 * _amount).toString(), "ether"),
